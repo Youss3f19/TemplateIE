@@ -1,3 +1,4 @@
+
 .iset {
     background-color: #007090;
     color: white;
@@ -5,6 +6,7 @@
     position: relative;
     border-radius: 0 0 0 70%;
 }
+
 
 .iset .iset-text h1 {
     font-size: 3rem;
@@ -26,6 +28,34 @@
     max-width: 500px;
     border-radius: 15px;
 }
+.isetCh {
+    background-color: #007090;
+    color: white;
+    padding: 100px 0;
+    position: relative;
+    border-radius: 0 70% 0 0;
+}
+.isetCh .iset-text h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.isetCh .iset-text p {
+    margin: 20px 0;
+    font-size: 1.1rem;
+}
+
+.isetCh .btn-warning {
+    color: white;
+    font-weight: bold;
+}
+
+.isetCh .img-fluid {
+    width: 74%;
+    max-width: 500px;
+    border-radius: 15px;
+}
+/********************************/
 
 
 
