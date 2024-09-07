@@ -2,13 +2,19 @@
     font-family: 'Arima Madurai';
     src: url('../assets/fonts/Arima\ Madurai.ttf') format('truetype');
 }
-
+.bg{
+    background-color: #007090;
+}
 body {
     font-family: 'Arima Madurai', sans-serif;
 }
 /* Style global pour la barre de navigation */
-.navbar {
+.change {
+    background-color: #FBFBFB !important   ;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); 
+}
+.text-change{
+    color: #007090 !important;
 }
 
 .navbar-brand img {
@@ -58,7 +64,7 @@ body {
     padding: 100px 0;
     position: relative;
     border-radius: 0 0 0 70%;
-    box-shadow: 0 4px 6px 5px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 4px 6px 5px rgba(0, 0, 0, 0.099); 
 
 }
 
@@ -89,7 +95,7 @@ body {
     padding: 100px 0;
     position: relative;
     border-radius: 0 70% 0 0;
-    box-shadow: 0 -4px 6px 5px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 -4px 6px 0px rgba(0, 0, 0, 0.099); 
 
 }
 .isetCh .iset-text h1 {
@@ -284,4 +290,14 @@ body {
     /* Gradient background */
     opacity: 0;
     transition: opacity 0.3s ease;
+}
+
+/*footer */
+.scaleLogo{
+    transition: all 0.2s ease;
+    
+}
+.scaleLogo:hover{
+    transform: scale(1.05);
+    color: #E4A11B !important ;
 }
