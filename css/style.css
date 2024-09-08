@@ -2,6 +2,11 @@
     font-family: 'Arima Madurai';
     src: url('../assets/fonts/Arima\ Madurai.ttf') format('truetype');
 }
+
+.minH{
+    min-height: 62vh;
+  }
+
 .bg{
     background-color: #007090;
 }
